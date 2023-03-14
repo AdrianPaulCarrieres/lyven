@@ -53,7 +53,12 @@ defmodule Lyven.MixProject do
 
       # Lint, Sec
       {:credo, "~> 1.6", only: [:dev, :test], runtime: false},
-      {:sobelow, "~> 0.11", only: [:dev, :test], runtime: false}
+      {:sobelow, "~> 0.11", only: [:dev, :test], runtime: false},
+
+      # Membrane
+      {:membrane_core, "~> 0.11.0"},
+      {:membrane_file_plugin, "~> 0.13.2"},
+      {:membrane_rtmp_plugin, "~> 0.11.0"}
     ]
   end
 
